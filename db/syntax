@@ -1,0 +1,5 @@
+BEGIN TRANSACTION
+ALTER TABLE buku_tbl ADD isbn VARCHAR;
+ALTER TABLE buku_tbl ADD penerbit VARCHAR;
+ALTER TABLE buku_tbl ADD tahun_terbit CHAR(4);
+COMMIT
